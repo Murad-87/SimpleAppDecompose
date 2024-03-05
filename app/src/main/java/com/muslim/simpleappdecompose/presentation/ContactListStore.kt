@@ -6,6 +6,8 @@ import com.muslim.simpleappdecompose.domain.Contact
 interface ContactListStore :
     Store<ContactListStore.Intent, ContactListStore.State, ContactListStore.Label> {
 
+        //TODO
+
     data class State(
         val contactList: List<Contact>
     )
